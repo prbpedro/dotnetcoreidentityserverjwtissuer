@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A214B63-A250-4419-9A84-918D7ADB0A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCoreIdentityServerJwtIssuer", "src\DotnetCoreIdentityServerJwtIssuer\DotnetCoreIdentityServerJwtIssuer.csproj", "{796FF470-A2C1-494F-BA16-2E7D99F2B09B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Debug|x64.Build.0 = Debug|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Debug|x86.Build.0 = Debug|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Release|x64.ActiveCfg = Release|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Release|x64.Build.0 = Release|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Release|x86.ActiveCfg = Release|Any CPU
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{796FF470-A2C1-494F-BA16-2E7D99F2B09B} = {6A214B63-A250-4419-9A84-918D7ADB0A94}
+	EndGlobalSection
+EndGlobal
