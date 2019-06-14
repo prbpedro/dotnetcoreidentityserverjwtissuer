@@ -470,13 +470,11 @@ using (IServiceScope scope = serviceScopeFactory.CreateScope())
 }
 ``` 
 
-#### Adicionando as configurações necessárias para a criação do token JWT ao arquivo appsettings.json
+#### Adding needed configuration to the creation of the JWT token to the appsettings.json file
 
-Adicione as configuração abaixo ao arquivo appsettings.json
+It's necessary to remember that the date time of the machine that will execute this application must be UTC.
 
-Estas definem a chave simétrica utilizada para gerar o token, o issuer, as audiences válidas e o tempo de expiração do token em mile segundos.
-
-Necessário lembrar que para a execução desta aplicação é necessário que a data/hora da máquina tenha como fuso horário o valor UTC - Tempo Universal Coordenado.
+The symmetric key, issuer, valid audiences and the expiration time in milliseconds needed to generate the token must be configurated on the  appsettings.json file as follow:
 
 ```json
 "AppSettings": 
@@ -491,7 +489,7 @@ Necessário lembrar que para a execução desta aplicação é necessário que a
 }
 ```
 
-Agora podemos acessar o método de login através do sítio <http://localhost:6000/api/Login> passando no body da requisição o texto json abaixo (application/json):
+Now the Login method is available throw the site <http://localhost:6000/api/Login> passing in the requisition body the following JSON text (application/JSON):
 
 ```json
 {
@@ -501,7 +499,7 @@ Agora podemos acessar o método de login através do sítio <http://localhost:60
 } 
 ```
 
-Deveremos ter uma resposta similar ao texto/json abaixo:
+Calling the Login method should return a JSON text similar to the below: 
 
 ```json
 {
