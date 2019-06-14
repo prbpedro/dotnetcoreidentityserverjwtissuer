@@ -91,7 +91,7 @@ Add the below ItemGroup  to the application csproj to ensure the copy of the fil
 ```xml	
 <ItemGroup>
 	<none Include="appsettings.json" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always"/>
-    <none Include="appsettings.Development.json" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always"/>
+	<none Include="appsettings.Development.json" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always"/>
 </ItemGroup>
 ```
 	
