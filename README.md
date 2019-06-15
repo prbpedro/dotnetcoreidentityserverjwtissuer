@@ -300,12 +300,6 @@ namespace DotnetCoreIdentityServerJwtIssuer.Services
 }
 ```
 
-Esta classe permitira a aplicação inserir dados básicos na base referenciada pelo framework IdentityServer4 através do método Inicializar. O mesmo irá inserir dois roles, um usuário e relacionar este a um dos roles inseridos. 
-
-A classe também oferece métodos para obtenção dos roles associados aos usuários e das claims associadas aos roles e usuários através dos métodos ObterClaims e ObterRoles.
-
-Para a autenticação do usuário é disponibilizado o método AutenticarUsuario.
-
 This class will allow the application to insert basic data in the base referenced by the IdentityServer4 framework through the Inicializar method. The same will insert two roles, a user and relate this to one of the inserted roles.
 
 The class also provides methods for obtaining roles associated with users and claims associated with roles and users through the ObterClaims and ObterRoles methods.
