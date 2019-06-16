@@ -12,7 +12,7 @@ Running this application requires that the date/time of the machine has the time
 
 ## Creating a database for the project
 
-1. Create a new empty Database named TutorialBdIdentityServerthat should contain the structures needed to run IdentityServer4.
+1. Create a new empty Database named TutorialBdIdentityServer that should contain the structures needed to run IdentityServer4.
 
 1. Run the following SQL code to create the structures
 
