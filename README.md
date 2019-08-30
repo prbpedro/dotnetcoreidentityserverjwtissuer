@@ -1,4 +1,5 @@
 # ASPNetCore - IdentityServer4 + WEB-API JWT Token Issuer
+[![Build Status](https://travis-ci.org/prbpedro/dotnetcoreidentityserverjwtissuer.svg?branch=master)](https://travis-ci.org/prbpedro/dotnetcoreidentityserverjwtissuer)
 
 The IdentityServer4 is a Framework for OpenID and OAuth 2.0 connection to ASP.NET Core 2.2.
 
